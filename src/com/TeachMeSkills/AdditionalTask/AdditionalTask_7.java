@@ -18,7 +18,7 @@ public class AdditionalTask_7 {
         for (int i = 0; i < numberArray.length; i++){
             numberArray[i] = min + (int) (Math.random() * max);
         }
-        int a = 0;
+        int a;
         System.out.println(Arrays.toString(numberArray));
 
         for (int i = numberArray.length - 1; i > 0; i--) {
